@@ -24,38 +24,27 @@ a {
   padding: 0.4em;
   border-radius: 8px;
   background-color: #333;
-  display: inline-block;
   color: #fff;
 }
 
 .btn-subtle {
   font-size: 1rem;
   margin: 10px;
-  padding: 0.4em;
-  border-radius: 8px;
   background-color: #ccc;
-  display: inline-block;
   color: #fff;
 }
 
 .btn-ghost {
   font-size: 1rem;
   margin: 10px;
-  padding: 0.4em;
-  border-radius: 8px;
   background-color: #fff;
-  display: inline-block;
   color: #000;
-  border: 3px solid #000;
 }
 
 .btn-warning {
   font-size: 1rem;
   margin: 10px;
-  padding: 0.4em;
-  border-radius: 8px;
   background-color: #f33;
-  display: inline-block;
   color: #fff;
 }
 
@@ -64,11 +53,12 @@ a {
 }
 
 .btn-subtle:hover {
-  background-color: #ccc;
+  background-color: #333;
 }
 
 .btn-ghost:hover {
-  background-color: #ccc;
+  background-color: #333;
+  border-color: #333;
 }
 
 .btn-warning:hover {
@@ -77,10 +67,12 @@ a {
 
 .btn-small {
   font-size: 0.875rem;
-  padding: 0.75em;
 }
 
 .btn-big {
   font-size: 1.5rem;
-  padding: 0.3em;
+}
+
+.border {
+  border: 3px solid #000;
 }
